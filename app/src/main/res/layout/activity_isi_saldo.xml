@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IsiSaldo"
+    android:background="@drawable/topupbg">
+
+    <TextView
+        android:id="@+id/edit_query1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isi Saldo"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="12dp"/>
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="130dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="790dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Uang"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="50dp"/>
+    <EditText
+        android:id="@+id/isisaldo"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Masukkan Nominal"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="615dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFB449"
+        android:text="Tambah"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="750dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sisa Saldo"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="40sp"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

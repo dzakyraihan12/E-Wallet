@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Akun"
+    android:background="@drawable/akunbg">
+
+    <TextView
+        android:id="@+id/edit_query1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akun Saya"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No HP : "
+        android:textColor="#000000"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="362dp"
+        android:layout_marginLeft="70dp"/>
+    <TextView
+        android:id="@+id/nohp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="362dp"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo : "
+        android:textColor="#000000"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="438dp"/>
+    <TextView
+        android:id="@+id/infosaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="438dp"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Nama : "
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="514dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Email : "
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="589dp"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="589dp"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:id="@+id/namabaru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="514dp"
+        android:layout_marginLeft="130dp"
+        />
+
+    <ImageButton
+        android:id="@+id/confirm_button8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/rumahbaru"
+        android:layout_marginTop="725dp"
+        android:layout_marginLeft="100dp"/>
+
+
+    <ImageButton
+        android:id="@+id/akun"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/userprofile"
+        android:layout_marginTop="725dp"
+        android:layout_marginLeft="250dp"/>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textColor="@color/black"
+        android:layout_marginTop="800dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFFFFF"
+        />
+
+
+</RelativeLayout>

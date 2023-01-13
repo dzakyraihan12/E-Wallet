@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFB449">
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logobaru"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"/>
+    <EditText
+        android:id="@+id/nohp"
+        android:layout_width="248dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:hint="Phone Number"
+        android:background="@drawable/rectangle2"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="441dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="248dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:hint="Password"
+        android:background="@drawable/rectangle2"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nohp"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/confirm_button1"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0080FF"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pass"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/confirm_button3"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#0080FF"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Wallet"
+        android:fontFamily="@font/poppinsextra"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@drawable/signup">
+
+    <TextView
+        android:id="@+id/edit_query1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buat akun baru"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        />
+
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="248dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:hint ="Nama"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="248dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="339dp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="248dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="407dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/noHP"
+        android:layout_width="248dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:hint="No.Handphone"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="477dp"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/confirm_button1"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFB449"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="750dp"/>
+
+
+</RelativeLayout>

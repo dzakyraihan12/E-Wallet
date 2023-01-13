@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transfer"
+    android:background="@drawable/transferbg">
+
+    <TextView
+        android:id="@+id/edit_query1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="12dp"/>
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="130dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="790dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Tujuan"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="50dp"/>
+    <EditText
+        android:id="@+id/nohp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="No Handphone"
+        android:padding="5dp"
+        android:layout_marginTop="505dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/white"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/nominal"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Masukkan jumlah uang"
+        android:padding="5dp"
+        android:layout_marginTop="618dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/white"
+        android:layout_marginLeft="50dp"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan nominal"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:id="@+id/kirim"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFB449"
+        android:text="Kirim"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="750dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sisa Saldo"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
